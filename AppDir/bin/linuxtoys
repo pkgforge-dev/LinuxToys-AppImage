@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd "$APPDIR"/bim
+cd "$APPDIR"/bin
 
 export LINUXTOYS_PROCESS_NAME=linuxtoys
 if [ $# -gt 0 ]; then
