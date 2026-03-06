@@ -16,7 +16,8 @@ get-debloated-pkgs --add-common --prefer-nano
 make-aur-package zenity-gtk3
 make-aur-package linuxtoys-bin
 
-# If the application needs to be manually built that has to be done down here
+mkdir -p ./AppDir/bin
+cp -r /usr/share/linuxtoys/* ./AppDir/bin
 
 # if you also have to make nightly releases check for DEVEL_RELEASE = 1
 #
