@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd "$APPDIR"/bim
+
+export LINUXTOYS_PROCESS_NAME=linuxtoys
+if [ $# -gt 0 ]; then
+    export EASY_CLI=1
+fi
+
+exec python3 ./run.py "$@"
