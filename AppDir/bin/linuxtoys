@@ -7,4 +7,4 @@ if [ $# -gt 0 ]; then
     export EASY_CLI=1
 fi
 
-exec python3 ./run.py "$@"
+exec python3 ./linuxtoys.py "$@"
