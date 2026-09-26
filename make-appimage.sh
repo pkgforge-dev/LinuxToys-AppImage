@@ -13,7 +13,7 @@ export DEPLOY_PYTHON=1
 export ANYLINUX_LIB=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/linuxtoys /usr/bin/zenity
+quick-sharun ./AppDir/bin/linuxtoys /usr/bin/zenity /usr/lib/python3.14
 
 # Additional changes can be done in between here
 
